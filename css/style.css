@@ -1,0 +1,37 @@
+:root {
+    --bs-body-font-size: 1.125rem;
+    --bs-primary: #0d6efd;
+    --bs-primary-rgb: 13,110,253;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section:not(.no-padding), .section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.text-gray {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.text-small {
+    font-size: 0.9rem;
+}
+
+.rounded-corners {
+    border-radius: 20px;
+}
+
+section.jumbo-content {
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    height: 675px;
+}
+
+.img-container.active {
+    border: 3px solid var(--bs-primary);
+    border-radius: 25px;
+}
