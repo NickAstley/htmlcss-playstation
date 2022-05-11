@@ -8,9 +8,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section:not(.no-padding), .section {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .text-gray {
@@ -25,13 +25,39 @@ section:not(.no-padding), .section {
     border-radius: 20px;
 }
 
+section:not(.no-padding), .section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 section.jumbo-content {
-    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
     background-position: center;
-    height: 675px;
+}
+
+section.jumbo-content.returnal {
+    background-image: url("../img/jumbo-bg.png");
+    background-position: top center;
+    padding: 17rem 0 3rem 0;
+}
+
+section.jumbo-content.it-takes-two {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 }
 
 .img-container.active {
     border: 3px solid var(--bs-primary);
     border-radius: 25px;
+}
+
+.slider-select a.active {
+    border-bottom: 3px solid var(--bs-primary);
+}
+
+.slider-select a:not(.active) {
+    opacity: 0.6;
+}
+
+section.new-releases {
+    background-color: #333333;
 }
