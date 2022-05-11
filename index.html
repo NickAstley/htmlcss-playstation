@@ -12,11 +12,68 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header class="sticky-top">
         <!-- Barra nera Sony -->
-
+        <div class="bg-black p-2 text-end">
+            <img id="sony-logo" src="img/sony_logo.svg" alt="Sony">
+        </div>
         <!-- Navbar fixed-->
-
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/play_logo.svg" alt="PlayStation">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="me-1">Giochi</span>
+                                <img class="chevron" src="img/chevron-down-solid.svg" alt="">
+                                <img class="chevron chevron-blue d-none" src="img/chevron-down-solid-hover.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="me-1">Hardware</span>
+                                <img class="chevron" src="img/chevron-down-solid.svg" alt="">
+                                <img class="chevron chevron-blue d-none" src="img/chevron-down-solid-hover.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="me-1">Servizi</span>
+                                <img class="chevron" src="img/chevron-down-solid.svg" alt="">
+                                <img class="chevron chevron-blue d-none" src="img/chevron-down-solid-hover.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="me-1">Novità</span>
+                                <img class="chevron" src="img/chevron-down-solid.svg" alt="">
+                                <img class="chevron chevron-blue d-none" src="img/chevron-down-solid-hover.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="me-1">Fai acquisti</span>
+                                <img class="chevron" src="img/chevron-down-solid.svg" alt="">
+                                <img class="chevron chevron-blue d-none" src="img/chevron-down-solid-hover.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="me-1">Supporto</span>
+                                <img class="chevron" src="img/chevron-down-solid.svg" alt="">
+                                <img class="chevron chevron-blue d-none" src="img/chevron-down-solid-hover.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
     </header>
     <!-- Main -->
     <main>
@@ -38,34 +95,34 @@
             <div class="container pb-5">
                 <div class="row gy-3">
                     <div class="col-6">
-                        <div class="img-container active p-1">
+                        <button class="img-container active p-1">
                             <img class="rounded-corners w-100" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
-                        </div>
+                        </button>
                     </div>
                     <div class="col-6">
-                        <div class="img-container p-1">
+                        <button class="img-container p-1">
                             <img class="rounded-corners w-100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet & Clank - Rift Apart">
-                        </div>
+                        </button>
                     </div>
                     <div class="col-6">
-                        <div class="img-container p-1">
+                        <button class="img-container p-1">
                             <img class="rounded-corners w-100" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
-                        </div>
+                        </button>
                     </div>
                     <div class="col-6">
-                        <div class="img-container p-1">
+                        <button class="img-container p-1">
                             <img class="rounded-corners w-100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet & Clank - Rift Apart">
-                        </div>
+                        </button>
                     </div>
                     <div class="col-6">
-                        <div class="img-container p-1">
+                        <button class="img-container p-1">
                             <img class="rounded-corners w-100" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
-                        </div>
+                        </button>
                     </div>
                     <div class="col-6">
-                        <div class="img-container p-1">
+                        <button class="img-container p-1">
                             <img class="rounded-corners w-100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet & Clank - Rift Apart">
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -90,34 +147,34 @@
                 </div>
                 <div class="row gy-3">
                     <div class="col-4">
-                        <div class="slider-option h-100 text-center active">
+                        <button class="slider-option h-100 text-center active">
                             <img class="w-100 pb-3" src="img/playstation-5-thumb.png" alt="Console PS5">
                             <h5 class="d-none">Console PS5</h5>
-                        </div>
+                        </button>
                     </div>
                     <div class="col-4">
-                        <div class="slider-option h-100 text-center">
+                        <button class="slider-option h-100 text-center">
                             <img class="w-100 pb-3" src="img/joypad-thumb.png" alt="Controller wireless DualSense">
                             <h5 class="d-none">Controller wireless DualSense<sup>TM</sup></h5>
-                        </div>
+                        </button>
                     </div>
                     <div class="col-4">
-                        <div class="slider-option h-100 text-center">
+                        <button class="slider-option h-100 text-center">
                             <img class="w-100 pb-3" src="img/headset-thumb.png" alt="Cuffie wireless con microfono PULSE 3">
                             <h5 class="d-none">Cuffie wireless con microfono PULSE 3<sup>TM</sup></h5>
-                        </div>
+                        </button>
                     </div>
                     <div class="col-4">
-                        <div class="slider-option h-100 text-center">
+                        <button class="slider-option h-100 text-center">
                             <img class="w-100 pb-3" src="img/remote-thumb.png" alt="Telecomando Media">
                             <h5 class="d-none">Telecomando Media</h5>
-                        </div>
+                        </button>
                     </div>
                     <div class="col-4">
-                        <div class="slider-option h-100 text-center">
+                        <button class="slider-option h-100 text-center">
                             <img class="w-100 pb-3" src="img/camera-thumb.jpg" alt="Telecamera HD">
                             <h5 class="d-none">Telecamera HD</h5>
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -127,9 +184,9 @@
             <div class="container">
                 <div class="row">
                     <div>
-                        <img class="logo mb-3" src="img/it-takes-two-logo.png" alt="it Takes Two">
-                        <h2 class="display-2 mb-5">Un'avventura cooperativa selvaggia ti attende</h2>
-                        <p class="mb-4">Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.</p>
+                        <img class="logo mb-4" src="img/it-takes-two-logo.png" alt="it Takes Two">
+                        <h2 class="display-3 mb-4">Un'avventura cooperativa selvaggia ti attende</h2>
+                        <p class="mb-5">Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.</p>
                         <button type="button" class="btn btn-danger rounded-corners">Acquista ora</button>
                     </div>
                 </div>
@@ -142,83 +199,83 @@
                 <h5 class="fs-2 mb-5">Giochi incredibili per PS4 e PS5 disponibili ora</h5>
                 <div class="row">
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100 mb-3 rounded-corners" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater 1 + 2">
                             <p>Tony Hawk's<sup>TM</sup> Pro Skater<sup>TM</sup> 1 + 2</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100 mb-3 rounded-corners" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4: It's About Time">
                             <p>Crash Bandicoot 4: It's About Time</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100 mb-3 rounded-corners" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater 1 + 2">
                             <p>Tony Hawk's<sup>TM</sup> Pro Skater<sup>TM</sup> 1 + 2</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100 mb-3 rounded-corners" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4: It's About Time">
                             <p>Crash Bandicoot 4: It's About Time</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100 mb-3 rounded-corners" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater 1 + 2">
                             <p>Tony Hawk's<sup>TM</sup> Pro Skater<sup>TM</sup> 1 + 2</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100 mb-3 rounded-corners" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4: It's About Time">
                             <p>Crash Bandicoot 4: It's About Time</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100 mb-3 rounded-corners" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater 1 + 2">
                             <p>Tony Hawk's<sup>TM</sup> Pro Skater<sup>TM</sup> 1 + 2</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100 mb-3 rounded-corners" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4: It's About Time">
                             <p>Crash Bandicoot 4: It's About Time</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100 mb-3 rounded-corners" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater 1 + 2">
                             <p>Tony Hawk's<sup>TM</sup> Pro Skater<sup>TM</sup> 1 + 2</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100 mb-3 rounded-corners" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4: It's About Time">
                             <p>Crash Bandicoot 4: It's About Time</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100 mb-3 rounded-corners" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater 1 + 2">
                             <p>Tony Hawk's<sup>TM</sup> Pro Skater<sup>TM</sup> 1 + 2</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100 mb-3 rounded-corners" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4: It's About Time">
                             <p>Crash Bandicoot 4: It's About Time</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Sezione Playstation 4 e accessori -->
         <section>
-            <div class="container">
+            <div class="container py-4">
                 <div class="text-center mb-5 pb-3">
                     <h2 class="display-3 mb-4">Esplora PlayStation<sup>&reg;</sup> 4</h2>
                     <h5 class="text-gray fw-bold">Giochi incredibili e intrattenimento senza fine. <br> Non c'è mai stato un momento migliore per giocare sulla tua PS4.</h5>
@@ -275,19 +332,19 @@
                 </div>
                 <div class="row">
                     <div>
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100" src="img/playstation-store-games-under-20-spotlight.jpg" alt="Giochi a meno">
-                        </div>
+                        </a>
                     </div>
                     <div>
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100" src="img/playstation-store-golden-week-sale-spotlight.jpg" alt="Settimana d'oro">
-                        </div>
+                        </a>
                     </div>
                     <div>
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100" src="img/playstation-store-free-to-play-spotlight.png" alt="Free to play">
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -309,28 +366,28 @@
         </section>
         <!-- Social media -->
         <section>
-            <div class="container">
+            <div class="container py-4">
                 <h2 class="display-4 text-center mb-5 pb-3">Seguici sui social media</h2>
                 <div class="row">
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100" src="img/twitter.jpg" alt="Twitter">
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100" src="img/facebook.jpg" alt="Facebook">
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100" src="img/instagram.jpg" alt="Instagram">
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6">
-                        <div class="pb-5">
+                        <a href="#" class="pb-5 d-block">
                             <img class="w-100" src="img/youtube.png" alt="YouTube">
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

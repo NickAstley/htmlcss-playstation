@@ -13,14 +13,27 @@ a {
     text-decoration: none;
 }
 
+button {
+    border: none;
+    background: none;
+}
+
 ul {
     list-style-type: none;
+}
+
+nav {
+    box-shadow: 0 0 3px black;
 }
 
 footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
     font-size: 16px;
+}
+
+#sony-logo {
+    width: 100px;
 }
 
 #ps-logo-trademark {
@@ -41,6 +54,22 @@ footer {
 
 .white-svg {
     filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(267deg) brightness(107%) contrast(100%);
+}
+
+.chevron {
+    width: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover .chevron {
+    display: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover .chevron.chevron-blue {
+    display: inline-block !important;
 }
 
 .btn-secondary {
