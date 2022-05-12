@@ -22,6 +22,10 @@ ul {
     list-style-type: none;
 }
 
+header {
+    top: -43px;
+}
+
 nav {
     box-shadow: 0 0 3px black;
 }
@@ -40,12 +44,16 @@ footer {
     width: 100px;
 }
 
-#globe-img {
+#globe-img, #lens-img {
     width: 25px;
 }
 
 #sie-logo {
     width: 150px;
+}
+
+.display-6 {
+    font-size: 26px;
 }
 
 .text-gray {
@@ -129,4 +137,48 @@ section.ps-plus {
 
 section.ps-now {
     background-color: #161C3B;
+}
+
+@media screen and (min-width: 576px) {
+    body {
+        font-size: 16px;
+    }
+
+    .display-3 {
+        font-size: 40px;
+    }
+
+    .display-6 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    img.logo.larger-logo {
+        width: 430px;
+    }
+
+    .display-2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container-media {
+        max-width: 720px;
+    }
+
+    img.logo {
+        width: 200px;
+    }
+
+    .md-no-padding {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    img.logo.larger-logo {
+        width: 200px;
+    }
 }
