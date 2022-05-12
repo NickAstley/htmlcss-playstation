@@ -1,0 +1,25 @@
+/* Utilities */
+
+.text-gray {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.my-bg-gray {
+    background-color: var(--my-color-gray);
+}
+
+.my-bg-light-gray {
+    background-color: var(--my-color-light-gray);
+}
+
+.my-bg-dark-blue {
+    background-color: var(--my-color-dark-blue);
+}
+
+.svg-white {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(267deg) brightness(107%) contrast(100%);
+}
+
+.rounded-corners {
+    border-radius: 20px;
+}

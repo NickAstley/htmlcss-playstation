@@ -1,0 +1,191 @@
+/* Stili generali */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    top: -43px;
+    z-index: 999;
+}
+
+nav {
+    box-shadow: 0 0 10px black;
+}
+
+footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: 16px;
+}
+
+section, .section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* Immagini usate una sola volta */
+
+#sony-logo {
+    width: 100px;
+}
+
+#ps-logo-trademark {
+    width: 100px;
+}
+
+#globe-img, #lens-img {
+    width: 25px;
+}
+
+#lens-img:hover {
+    transform: scale(1.2);
+}
+
+#sie-logo {
+    width: 150px;
+}
+
+/* Override di alcuni stili di Bootstrap */
+
+.display-6 {
+    font-size: 26px;
+}
+
+.btn-primary:hover {
+    border-color: white;
+    box-shadow: 0 0 0 2px rgba(var(--bs-primary-rgb), 0.7);
+}
+
+.btn-secondary {
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
+    color: var(--bs-primary);
+}
+
+.btn-secondary:hover {
+    background-color: rgba(var(--bs-secondary-rgb), 0.7);
+    border-color: var(--bs-primary);
+    color: var(--bs-primary);
+    box-shadow: 0 0 0 2px rgba(var(--bs-secondary-rgb), 0.7);
+}
+
+.btn-secondary:focus {
+    background-color: rgba(var(--bs-secondary-rgb), 0.7);
+    border-color: var(--bs-primary);
+    color: var(--bs-primary);
+    box-shadow: 0 0 0 2px rgba(var(--bs-secondary-rgb), 0.7);
+}
+
+.btn-danger:hover {
+    border-color: black;
+    box-shadow: 0 0 0 2px rgba(var(--bs-danger-rgb), 0.7);
+}
+
+.btn-dark:hover {
+    background-color: rgba(0,0,0,.7);
+    border: 1px solid white;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.7);
+}
+
+/* Navbar */
+.chevron {
+    width: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover .chevron {
+    display: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover .chevron.chevron-blue {
+    display: inline-block !important;
+}
+
+/* Jumbo */
+
+.jumbo-content {
+    background-size: cover;
+}
+
+.jumbo-content.returnal {
+    background-image: url("../img/jumbo-bg.png");
+    background-position: top center;
+    padding: 17rem 0 3rem 0;
+}
+
+.jumbo-content.it-takes-two {
+    background-position: center;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+.logo {
+    width: 325px;
+}
+
+/* Cards di selezione */
+
+.img-container {
+    border: 3px solid transparent;
+}
+
+.img-container:focus {
+    border-color: var(--bs-primary);
+    border-radius: 25px;
+}
+
+.img-container:not(:focus) {
+    opacity: 0.6;
+}
+
+.img-container:hover {
+    position: relative;
+    top:-10px;
+    opacity: 1;
+}
+
+.img-container:hover img{
+    box-shadow: 0 5px 30px -6px black;
+}
+
+/* Sezione PS5 */
+
+.slider-option {
+    border: 3px solid transparent;
+}
+
+.slider-option:focus {
+    border-bottom: 3px solid var(--bs-primary);
+}
+
+.slider-option:not(:focus) {
+    opacity: 0.6;
+}
+
+/* Sezione nuove uscite */
+
+.new-releases a:hover {
+    color: inherit;
+}
+
+.new-releases a:hover img {
+    transform: scale(1.1);
+}
